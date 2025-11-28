@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jafcn09",
+    "module": "toggle-lite",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "toggle-lite-1.0.0.jar",
+          "url": "toggle-lite-1.0.0.jar",
+          "size": 4002,
+          "sha512": "83024af409b583abc54cabb07de4c458e91db595117f94afb6665241dc045080768e9af5a74e752f1299fa4021328df756de49bef69fcacd61aaaae9b8b32cfb",
+          "sha256": "cbf0fd011da46f49748a70af0e7c707abf5d19a1be4c90c343c037866663b16e",
+          "sha1": "5382773257f2cb35109e0b132c4900cdf07665b0",
+          "md5": "ddd1a2c897f468f5b8a8f2a633655f50"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "toggle-lite-1.0.0.jar",
+          "url": "toggle-lite-1.0.0.jar",
+          "size": 4002,
+          "sha512": "83024af409b583abc54cabb07de4c458e91db595117f94afb6665241dc045080768e9af5a74e752f1299fa4021328df756de49bef69fcacd61aaaae9b8b32cfb",
+          "sha256": "cbf0fd011da46f49748a70af0e7c707abf5d19a1be4c90c343c037866663b16e",
+          "sha1": "5382773257f2cb35109e0b132c4900cdf07665b0",
+          "md5": "ddd1a2c897f468f5b8a8f2a633655f50"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toggle-lite-1.0.0-javadoc.jar",
+          "url": "toggle-lite-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toggle-lite-1.0.0-sources.jar",
+          "url": "toggle-lite-1.0.0-sources.jar",
+          "size": 1100,
+          "sha512": "65f99632b990ec30c7061f20e745748327d2d16b5e187dd9c59ad2ee917b26817d17c52eef16160c7eb4a4b25018324ed0560ac45e78a5ebb96e28d4665163c0",
+          "sha256": "266c865efc22d520cfe98f0969936e9b53fc025e3c1633f3dbbaad5a84fd666f",
+          "sha1": "6ccd215e5a0378f729b7fc75ba254435b62f123e",
+          "md5": "4df405b4d3808118183bd497b9198dce"
+        }
+      ]
+    }
+  ]
+}

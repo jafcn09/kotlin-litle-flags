@@ -1,4 +1,4 @@
-package org.example
+package io.github.jafcn09
 
 object ToggleLite {
     private val flags = mutableMapOf<String, Boolean>()

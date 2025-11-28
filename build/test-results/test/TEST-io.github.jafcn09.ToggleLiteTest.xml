@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.jafcn09.ToggleLiteTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-28T15:41:20.651Z" hostname="Jhafets-MacBook-Air.local" time="0.02">
+  <properties/>
+  <testcase name="observe notifies on change()" classname="io.github.jafcn09.ToggleLiteTest" time="0.01"/>
+  <testcase name="toggle inverts flag value()" classname="io.github.jafcn09.ToggleLiteTest" time="0.001"/>
+  <testcase name="whenEnabled executes block only when enabled()" classname="io.github.jafcn09.ToggleLiteTest" time="0.001"/>
+  <testcase name="observe returns unsubscribe function()" classname="io.github.jafcn09.ToggleLiteTest" time="0.0"/>
+  <testcase name="getAll returns copy of all flags()" classname="io.github.jafcn09.ToggleLiteTest" time="0.002"/>
+  <testcase name="clear removes all flags and listeners()" classname="io.github.jafcn09.ToggleLiteTest" time="0.001"/>
+  <testcase name="setAll configures multiple flags()" classname="io.github.jafcn09.ToggleLiteTest" time="0.0"/>
+  <testcase name="set and isEnabled work correctly()" classname="io.github.jafcn09.ToggleLiteTest" time="0.0"/>
+  <testcase name="isEnabled returns default when flag not set()" classname="io.github.jafcn09.ToggleLiteTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
