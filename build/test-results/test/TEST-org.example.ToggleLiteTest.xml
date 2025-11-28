@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ToggleLiteTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-28T15:15:02.979Z" hostname="Jhafets-MacBook-Air.local" time="0.024">
+  <properties/>
+  <testcase name="observe notifies on change()" classname="org.example.ToggleLiteTest" time="0.013"/>
+  <testcase name="toggle inverts flag value()" classname="org.example.ToggleLiteTest" time="0.001"/>
+  <testcase name="whenEnabled executes block only when enabled()" classname="org.example.ToggleLiteTest" time="0.002"/>
+  <testcase name="observe returns unsubscribe function()" classname="org.example.ToggleLiteTest" time="0.001"/>
+  <testcase name="getAll returns copy of all flags()" classname="org.example.ToggleLiteTest" time="0.002"/>
+  <testcase name="clear removes all flags and listeners()" classname="org.example.ToggleLiteTest" time="0.0"/>
+  <testcase name="setAll configures multiple flags()" classname="org.example.ToggleLiteTest" time="0.0"/>
+  <testcase name="set and isEnabled work correctly()" classname="org.example.ToggleLiteTest" time="0.001"/>
+  <testcase name="isEnabled returns default when flag not set()" classname="org.example.ToggleLiteTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
